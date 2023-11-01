@@ -14,8 +14,14 @@ body {
   color: #FFFFFF;
 }
 
-/* declaration for bolding CSS class */ 
+/* declaration for bolded CSS class */ 
   .bolded { 
+    font-weight: bold; 
+  }
+
+/* declaration for color bolded CSS class */ 
+  .color-bolded { 
+    color: #EF6D3D; 
     font-weight: bold; 
   }
 
