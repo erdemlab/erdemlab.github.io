@@ -25,6 +25,11 @@ body {
     font-weight: bold; 
   }
 
+/* declaration for colored CSS class */ 
+  .colored { 
+    color: #EF6D3D; 
+  }
+
 /**
  * Links
  */
