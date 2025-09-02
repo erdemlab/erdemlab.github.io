@@ -28,6 +28,7 @@ body {
 /* declaration for colored CSS class */ 
   .colored { 
     color: #EF6D3D; 
+    font-weight: normal; 
   }
 
 /**
