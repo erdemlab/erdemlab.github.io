@@ -1,6 +1,6 @@
 <!doctype html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <!-- Page setup -->
     <meta charset="utf-8">
     <title>Erdem Lab</title>
@@ -8,232 +8,356 @@
     <meta name="author" content="Cemal Erdem">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
-  
+
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
 
-    <header id="header">
-      <!-- <img src="logo.jpg"> -->
-      <h1><span class="color-bolded">Welcome to the Erdem Lab website!</span></h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
+</head>
+
+<body>
+
+<header id="header">
+    <!-- <img src="logo.jpg"> -->
+    <h1><span class="color-bolded">Welcome to the Erdem Lab website!</span></h1>
+
+    <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+    <ul class="main-menu">
         <li><a href="#Home">Home</a></li>
         <li><a href="#People">People</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Publications">Publications</a></li>
         <li><a href="#Open_positions">Open positions</a></li>
         <li><a href="#Contact">Contact</a></li>
-      </ul>                 
-    </header>
+    </ul>
+</header>
 
-    <!-- <img src="logo.jpg"> -->
-    
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="Home" class="content-region hide">
-            <img src="logo.jpg">              
-            <p>  
-              <br>
-              Our lab is located at the Department of Medical Biosciences, Umeå University and is affiliated with SciLifeLab. 
-              We are part of the national program for data-driven life science (DDLS), funded generously by the Knut and Alice Wallenberg Foundation. 
-              Our lab aims to merge machine learning and mechanistic computational models with patient data to create clinically predictive computational models for cancer.
-              We are a computational biology lab with a foot in the wet-lab. 
-              <br>
-              
-            </p>
-          </div>
-          
-          <div id="People" class="content-region hide">
-            <h2>Current Team</h2>
-            
-            <p>
-            <img src="cerdem.jpg" alt="C_Erdem" style="float: left; margin:0.6rem;">
-              Cemal Erdem
-              <br> Role: PI
-              <br> Education: 
-              <br> PhD, University of Pittsburgh & Carnegie Mellon University
-              <br> MSc, Koc University
-              <br> BSc, Middle East Technical University
-              <br> Links: <a href="https://www.linkedin.com/in/cemalerdem/">LinkedIn</a> / 
-              <a href="https://scholar.google.com/citations?user=tR8WaJgAAAAJ&hl=en">Google Scholar</a> / 
-              <a href="https://github.com/erdemlab">Lab GitHub</a>
-              <br>
-            </p>
-            
-            <br>
-           
-            <p>
-            <img src="nsharma.jpg" alt="N_Sharma" style="float: left; margin:0.6rem;">
-              Neelam Sharma
-              <br> Role: Postdoc
-              <br> Education: 
-              <br> PhD, IIIT-Delhi
-              <br> MSc, GLA University
-              <br> Links: <a href="https://www.linkedin.com/in/neelam-sharma-phd-07270a86/">LinkedIn</a> / 
-              <a href="https://scholar.google.co.in/citations?hl=en&user=j7LcxrUAAAAJ">Google Scholar</a> / 
-              <a href="https://www.umu.se/en/staff/neelam-sharma/">University webpage</a> 
-              <br>
-              <br>
-            </p>
-            
-            <br>
-          
-            <p>
-            <img src="aamrit.jpg" alt="A_K_Amrit" style="float: left; margin:0.6rem">
-              Aurore K. Amrit
-              <br> Role: PhD student
-              <br> Education:
-              <br> PharmD candidate, Faculty of Pharmacy of Paris
-              <br> Master, Université Paris Cité x PSL x Arts et Métiers
-              <br> Links: 
-              <a href="https://www.linkedin.com/in/aamrit/">LinkedIn</a> /
-              <a href="https://www.umu.se/en/staff/aurore-amrit/">University webpage</a>
-              <br>
-              <br> 
-            </p>
-            
-            <br>
-            
-            <p>
-            <img src="rabia.jpg" alt="Rabia_Sen" style="float: left; margin:0.6rem;">
-             Rabia Şen  
-             <br> Role: PhD student  
-             <br> Education:  
-             <br> MSc in Neuroscience, Bilkent University 
-             <br> BSc in Molecular Biology and Genetics, Istanbul University 
-             <br> Links:  
-             <a href="https://www.linkedin.com/in/rabia-%C8%99en-a9810b143/">LinkedIn</a> /  
-             <a href="https://www.umu.se/en/staff/rabia-sen/">University webpage</a>  
-             <br>
-             <br>
-            </p>
+<!-- <img src="logo.jpg"> -->
 
-            <br>
-            
-            <p>
-            <img src="bogus.jpg" alt="bogus" style="float: left; margin:0.6rem;">
-              This could be "You"
-              <br> Role: Team member
-              <br> Education: 
-              <br> Any university in the universe
-              <br> Links: 
-              <br> Maybe should have google scholar at least!
-              <br> 
-              <br> <a href="https://www.umu.se/en/work-with-us/open-positions/">Check University careers page for the appplication!</a>
-              <br>
-            </p>
-            
-            <br>
-            <br>
-            <br>
-                        
-          </div>
-          
-          <div id="Contact" class="content-region hide">
-            <p>
-              Cemal Erdem
-              <br> Assistant Professor and DDLS Fellow
-              <br> Department of Medical Biosciences, Umeå University
-              <br> SciLifeLab and Wallenberg National Program for Data-Driven Life Science
-              <br>
-              <br> <span class="color-bolded">Mailing address:</span> 
-              <br> By 6M, Sjukhusområdet
-              <br> Umeå Universitet, 901 85 Umeå
-              <br> 
-              <br> <span class="color-bolded">Email:</span> cemal.erdem@umu.se
-            </p>
-          </div>
+<div id="container">
+    <div class="inner">
+        <div id="content">
 
-          <div id="Publications" class="content-region hide">
-            <h2>Publications</h2>
-            <p>
-              <b>'</b> denotes co-first and <b>*</b> denotes corresponding authorship
-            </p>
-                
-             <ol type="1">
-<li>(Preprint) Nissen I, Dakhel S, Chakraborty C, Holm Nygaard A, Kirkeby A, Hornblad A, <span class="colored">Erdem C</span>, Remeseiro S* (2025). Gene regulatory networks linked to GABA signalling emerge as relevant for glioblastoma pathogenesis. bioRxiv. doi.org/10.1101/2025.04.30.651564 <a href="https://www.biorxiv.org/content/10.1101/2025.04.30.651564v2.full"> [Link]</a> </li> <br>                
-<li>Mallikarjuna P', <span class="colored">Erdem C'</span>, Beorlegui RI, Larsson A, Ljungberg B, Kamali-Moghaddam M, Landstrom M* (2025). Liquid biomarkers associate with TGF-β Type I receptor and hypoxia in kidney cancer. Signal Transduction and Targeted Therapy. 10, 309. <a href="https://www.nature.com/articles/s41392-025-02404-7"> [Link]</a> </li> <br>                
-<li>Mutsuddy A', Huggins JR', <span class="colored">Amrit AK'</span>, Harley-Gasaway AM, <span class="colored">Erdem C</span>, Jones ET, Laurine OG, Calhoun JC, Birtwistle MR* (2025). Mechanistic modeling of cell viability assays with in silico lineage tracing. PLOS Computational Biology. 21 (8), e1013156. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013156"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C</span>, Gross SM, Heiser LM*, Birtwistle MR* (2023). MOBILE pipeline enables identification of context-specific networks and regulatory mechanisms. Nature Communications. 14, 3991. <a href="https://www.nature.com/articles/s41467-023-39729-2"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C*</span>, Birtwistle MR* (2023). MEMMAL: A tool for expanding large-scale mechanistic models with machine learned associations and big datasets. Frontiers in Systems Biology. 3. Invited special issue paper. <a href="https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2023.1099413/full"> [Link]</a> </li> <br> 
-<li>Mutsuddy A', <span class="colored">Erdem C'</span>, Salim M, Cook D, Hobbs N, Birtwistle MR* (2023). Computational speed-up of large-scale, single-cell model simulations via a fully-integrated SBML-based format. Bioinformatics Advances. 3 (1). <a href="https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad039/7084764"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C*</span>, Mutsuddy A, Bensman EM, Dodd W, Saint-Antoine MM, Bouhaddou M, Blake RC, Gross SM, Heiser LM, Feltus FA, Birtwistle MR* (2022). A scalable, open-source implementation of a large-scale mechanistic model for single cell proliferation and death signaling. Nature Communications. 13, 3555. <a href="https://www.nature.com/articles/s41467-022-31138-1"> [Link]</a> </li> <br> 
-<li>Gross SM, Dane MA, Smith RL, Devlin K, McLean I, Derrick D, Mills C, Subramanian K, London AB, Torre D, Evangelista J, Clarke D, Xie Z,  <span class="colored">Erdem C</span>, Lyons N, Natoli T, Pessa S, Lu X, Mullahoo J, Li J, Adam M, Wassie B, Liu M, Kilburn D, Liby TA, Bucher E, Sanchez-Aguila C, Daily K, Omberg L, Wang Y, Jacobson C, Yapp C, Chung M, Vidovic D, Lu Y, Schurer S, Lee A, Pillai A, Subramanian A, Papanastasiou M, Fraenkel E, Feiler HS, Mills GB, Jaffe J, Ma’ayan A, Birtwistle MR, Sorger PK, Korkola JE, Gray JW, Heiser LM* (2022). A multi-omic analysis of MCF10A cells provides a resource for integrative assessment of ligand-mediated molecular and phenotypic responses. Communications Biology (Nature). 5, 1066. <a href="https://www.nature.com/articles/s42003-022-03975-9"> [Link]</a> </li> <br> 
-<li>Zadeh CO, Huggins JR, Sarmah D, Westbury BC, Interiano WR, Jordan MC, Phillips SA, Dodd WB, Meredith WO, Harold NJ, <span class="colored">Erdem C</span>, and Birtwistle MR* (2022). Mesowestern Blot: Simultaneous Quantitative Analysis for Hundreds of Sub-Microliter Lysates. ACS Omega. 7 (33), 28912-28923. <a href="https://pubs.acs.org/doi/full/10.1021/acsomega.2c02201"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C</span>, Lee AV, Taylor DL, Lezon TR* (2021). Inhibition of RPS6K reveals context-dependent Akt activity in luminal breast cancer cells. PLOS Computational Biology. 17 (6), e1009125. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009125"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C</span>, Nagle AM, Casa AJ, Litzenburger B, Wang Y, Taylor DL, Lee AV, Lezon TR* (2016). Proteomic Screening and Lasso Regression Reveal Differential Signaling in Insulin and Insulin-like Growth Factor I (IGF1) Pathways. Molecular & Cellular Proteomics. 15 (9), 3045-3057. <a href="https://www.sciencedirect.com/science/article/pii/S1535947620333788?via%3Dihub"> [Link]</a> </li> <br> 
-<li><span class="colored">Erdem C</span>, Bozkurt Y, Erman B, Gul A, Demir A* (2015). Mathematical Modeling of Behcet's Disease: A dynamical systems approach. Journal of Biological Systems. 23 (02), 231-57. <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218339015500126"> [Link]</a> </li> <br> 
-             </ol>
-          </div>
+            <div id="Home" class="content-region hide">
+                <img src="logo.jpg" alt="logo">
+                <p>
+                    <br>
+                    Our lab is located at the Department of Medical Biosciences, Umeå University and is affiliated with
+                    SciLifeLab.
+                    We are part of the national program for data-driven life science (DDLS), funded generously by the
+                    Knut and Alice Wallenberg Foundation.
+                    Our lab aims to merge machine learning and mechanistic computational models with patient data to
+                    create clinically predictive computational models for cancer.
+                    We are a computational biology lab with a foot in the wet-lab.
+                    <br>
 
-          <div id="Projects" class="content-region hide">
-            <h2>Projects</h2>
-            <p>
-              <h3>Large-scale mechanistic modeling (see <a href="https://rdcu.be/cP6tK">SPARCED</a> paper)</h3>
-              <img src="SPARCEDpic2.jpg" alt="sparced" style="float: left; margin:0.6rem;">
-              <br> SPARCED (<a href="https://github.com/SPARCED/SPARCED">github.com/SPARCED</a>) is an open-source pipeline to create and simulate largest-scale mechanistic models for human cells. The tool can convert structured lists of species, parameters, and reactions into an SBML model file. The default model is based on one of the largest pan-cancer signaling models in the literature, which already incorporated major pathways of receptor tyrosine kinase signalling (EGFR, HER2, ERBB3, ERBB4, FGFR, INSR, IGF1R, MET, PDGFR), proliferation (AKT, ERK2, MTOR), cell cycle, apoptosis, DNA damage, and transcription and translation events. The key aspects of SPARCED include (i) compatibility with high performance/cloud computing, (ii) ability to simulate thousands of single-cell trajectories in parallel, (iii) recording of cell division and death events, (iv) traceability of protein trajectories over generations of cells, (v) easy alteration to include new pathways, and (vi) easy change of context to other cell types.
-              <br>
-            </p>
-            <br>
-            <p>
-              <h3>Multi-omics data integration and integrative data analysis (see <a href="https://www.nature.com/articles/s41467-023-39729-2.epdf?sharing_token=u9DPRt-Q6tFF6k6Ri1qOu9RgN0jAjWel9jnR3ZoTv0PvrL8wWb1Z5FKzesRjTOfofa-z-u7A7IvXJmW-mdszsFVhRalFZQsERyTc9V4YSfWknkRDuQ-CQIlO12yDi0UhgE9tXGOxu4rGSqVeNCxdmDwaJV8_HsvPZwyJaHCeFuE%3D">MOBILE</a> paper)</h3>
-              <img src="mobilepic2.jpg" alt="mobile" style="float: left; margin:0.6rem;">
-              <br> MOBILE (<a href="https://github.com/cerdem12/MOBILE">github.com/MOBILE</a>) pipeline integrates multi-omics datasets in a data-driven, biologically-structured manner and finds context-specific association networks. The gene-level association networks generated can be used to nominate differentially enriched pathways. 
-              <br>
-            </p>
-            <br>
-            <p>
-              <h3>Machine learning + Mechanistic modeling --> Causal inference (see <a href="https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2023.1099413/full">MEMMAL</a> paper)</h3>
-              <img src="memmalpic2.jpg" alt="memmal" style="float: left; margin:0.6rem;">
-              <br> MEMMAL (<a href="https://github.com/cerdem12/MEMMAL">github.com/MEMMAL</a>) framework uses machine learnt interactions as a basis for new reactions in mechanistic models. As a proof-of-concept, we incorporated MOBILE inferred novel IFNγ/PD-L1 related associations into SPARCED and explored possibly causal interactions. This work is a template for combining big-data-inferred interactions with mechanistic models, which could be more broadly applicable for building multi-scale precision medicine and whole cell models.
-              <br>
-            </p>
-            <br>
-          </div>
+                </p>
+            </div>
 
-          <div id="Open_positions" class="content-region hide">
-            <h2>Open positions</h2>
-            <p>
-              <br> <span class="color-bolded">Current opennings:</span> Interested UmU Masters students, please send an email!
-              <br>
-              <br> <span class="color-bolded">Upcoming opennings:</span> None currently.. Please check back later or email.
-              <br>
-              <br> <b>Past opennings:</b> 
-              <br> <a href="https://umu.varbi.com/se/what:job/jobID:791213/"> Two postdoctoral positions!</a>    Application deadline: 2025-02-16
-              <br> <a href="https://umu.varbi.com/se/what:job/jobID:684088/"> Two PhD positions!</a>    Application deadline: 2024-01-14
-              <br>
-            </p>
-            
-          </div>
-          
+            <div id="People" class="content-region hide">
+                <h2>Current Team</h2>
+
+                <p>
+                    <img src="cerdem.jpg" alt="C_Erdem" style="float: left; margin:0.6rem;">
+                    Cemal Erdem
+                    <br> Role: PI
+                    <br> Education:
+                    <br> PhD, University of Pittsburgh & Carnegie Mellon University
+                    <br> M.Sc., Koc University
+                    <br> B.Sc., Middle East Technical University
+                    <br> Links: <a href="https://www.linkedin.com/in/cemalerdem/">LinkedIn</a> /
+                    <a href="https://scholar.google.com/citations?user=tR8WaJgAAAAJ&hl=en">Google Scholar</a> /
+                    <a href="https://github.com/erdemlab">Lab GitHub</a>
+                    <br>
+                </p>
+
+                <br>
+
+                <p>
+                    <img src="nsharma.jpg" alt="N_Sharma" style="float: left; margin:0.6rem;">
+                    Neelam Sharma
+                    <br> Role: Postdoc
+                    <br> Education:
+                    <br> PhD, IIIT-Delhi
+                    <br> M.Sc., GLA University
+                    <br> Links: <a href="https://www.linkedin.com/in/neelam-sharma-phd-07270a86/">LinkedIn</a> /
+                    <a href="https://scholar.google.co.in/citations?hl=en&user=j7LcxrUAAAAJ">Google Scholar</a> /
+                    <a href="https://www.umu.se/en/staff/neelam-sharma/">University webpage</a>
+                    <br>
+                    <br>
+                </p>
+
+                <br>
+
+                <p>
+                    <img src="aamrit.jpg" alt="A_K_Amrit" style="float: left; margin:0.6rem">
+                    Aurore K. Amrit
+                    <br> Role: PhD student
+                    <br> Education:
+                    <br> PharmD candidate, Faculty of Pharmacy of Paris
+                    <br> Master, Université Paris Cité x PSL x Arts et Métiers
+                    <br> Links:
+                    <a href="https://www.linkedin.com/in/aamrit/">LinkedIn</a> /
+                    <a href="https://www.umu.se/en/staff/aurore-amrit/">University webpage</a>
+                    <br>
+                    <br>
+                </p>
+
+                <br>
+
+                <p>
+                    <img src="rabia.jpg" alt="Rabia_Sen" style="float: left; margin:0.6rem;">
+                    Rabia Şen
+                    <br> Role: PhD student
+                    <br> Education:
+                    <br> MSc in Neuroscience, Bilkent University
+                    <br> B.Sc. in Molecular Biology and Genetics, Istanbul University
+                    <br> Links:
+                    <a href="https://www.linkedin.com/in/rabia-%C8%99en-a9810b143/">LinkedIn</a> /
+                    <a href="https://www.umu.se/en/staff/rabia-sen/">University webpage</a>
+                    <br>
+                    <br>
+                </p>
+
+                <br>
+
+                <p>
+                    <img src="JeromeArnoux-1.jpg" alt="Jérôme Arnoux" style="float: left; margin:0.6rem;
+             width:169px; height:200px">
+                    Jérôme Arnoux
+                    <br> Role: Postdoc
+                    <br> Education:
+                    <br> PhD, Paris Saclay University
+                    <br> M.Sc. in Bioinformatic Modeling and Statistic, Rouen Normandy University
+                    <br> B.Sc. in Life Sciences, Biochemistry, Molecular and Cellular Biology, and Physiology, Rouen
+                    Normandy University
+                    <br> Links:
+                    <a href="https://www.linkedin.com/in/jeromearnoux/">LinkedIn</a> /
+                    <a href="https://bsky.app/profile/jpjarnoux.bsky.social">Bluesky</a> /
+                    <a href="https://scholar.google.com/citations?user=NTWIeDYAAAAJ&hl=sv&oi=sra">Google Scholar</a> /
+                    <a href="https://github.com/jpjarnoux">GitHub</a> /
+                    <a href="https://www.umu.se/personal/jerome-arnoux/">University webpage</a>
+                    <br>
+                    <br>
+                </p>
+
+                <br>
+
+                <p>
+                    <img src="bogus.jpg" alt="bogus" style="float: left; margin:0.6rem;">
+                    This could be "You"
+                    <br> Role: Team member
+                    <br> Education:
+                    <br> Any university in the universe
+                    <br> Links:
+                    <br> Maybe should have Google Scholar at least!
+                    <br>
+                    <br> <a href="https://www.umu.se/en/work-with-us/open-positions/">Check the University careers page
+                    for the application!</a>
+                    <br>
+                </p>
+
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+            <div id="Contact" class="content-region hide">
+                <p>
+                    Cemal Erdem
+                    <br> Assistant Professor and DDLS Fellow
+                    <br> Department of Medical Biosciences, Umeå University
+                    <br> SciLifeLab and Wallenberg National Program for Data-Driven Life Science
+                    <br>
+                    <br> <span class="color-bolded">Mailing address:</span>
+                    <br> By 6M, Sjukhusområdet
+                    <br> Umeå Universitet, 901 85 Umeå
+                    <br>
+                    <br> <span class="color-bolded">Email:</span> cemal.erdem@umu.se
+                </p>
+            </div>
+
+            <div id="Publications" class="content-region hide">
+                <h2>Publications</h2>
+                <p>
+                    <b>'</b> denotes co-first and <b>*</b> denotes corresponding authorship
+                </p>
+
+                <ol type="1">
+                    <li>(Preprint) Nissen I, Dakhel S, Chakraborty C, Holm Nygaard A, Kirkeby A, Hornblad A, <span
+                            class="colored">Erdem C</span>, Remeseiro S* (2025). Gene regulatory networks linked to GABA
+                        signalling emerge as relevant for glioblastoma pathogenesis. bioRxiv.
+                        doi.org/10.1101/2025.04.30.651564 <a
+                                href="https://www.biorxiv.org/content/10.1101/2025.04.30.651564v2.full"> [Link]</a></li>
+
+                    <li>Mallikarjuna P', <span class="colored">Erdem C'</span>, Beorlegui RI, Larsson A, Ljungberg B,
+                        Kamali-Moghaddam M, Landstrom M* (2025). Liquid biomarkers associate with TGF-β Type I receptor
+                        and hypoxia in kidney cancer. Signal Transduction and Targeted Therapy. 10, 309. <a
+                                href="https://www.nature.com/articles/s41392-025-02404-7"> [Link]</a></li>
+
+                    <li>Mutsuddy A', Huggins JR', <span class="colored">Amrit AK'</span>, Harley-Gasaway AM, <span
+                            class="colored">Erdem C</span>, Jones ET, Laurine OG, Calhoun JC, Birtwistle MR* (2025).
+                        Mechanistic modeling of cell viability assays with in silico lineage tracing. PLOS Computational
+                        Biology. 21 (8), e1013156. <a
+                                href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013156">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C</span>, Gross SM, Heiser LM*, Birtwistle MR* (2023). MOBILE
+                        pipeline enables identification of context-specific networks and regulatory mechanisms. Nature
+                        Communications. 14, 3991. <a href="https://www.nature.com/articles/s41467-023-39729-2">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C*</span>, Birtwistle MR* (2023). MEMMAL: A tool for expanding
+                        large-scale mechanistic models with machine learned associations and big datasets. Frontiers in
+                        Systems Biology. 3. Invited special issue paper. <a
+                                href="https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2023.1099413/full">
+                            [Link]</a></li>
+
+                    <li>Mutsuddy A', <span class="colored">Erdem C'</span>, Salim M, Cook D, Hobbs N, Birtwistle MR*
+                        (2023). Computational speed-up of large-scale, single-cell model simulations via a
+                        fully-integrated SBML-based format. Bioinformatics Advances. 3 (1). <a
+                                href="https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad039/7084764">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C*</span>, Mutsuddy A, Bensman EM, Dodd W, Saint-Antoine MM,
+                        Bouhaddou M, Blake RC, Gross SM, Heiser LM, Feltus FA, Birtwistle MR* (2022). A scalable,
+                        open-source implementation of a large-scale mechanistic model for single cell proliferation and
+                        death signaling. Nature Communications. 13, 3555. <a
+                                href="https://www.nature.com/articles/s41467-022-31138-1"> [Link]</a></li>
+
+                    <li>Gross SM, Dane MA, Smith RL, Devlin K, McLean I, Derrick D, Mills C, Subramanian K, London AB,
+                        Torre D, Evangelista J, Clarke D, Xie Z, <span class="colored">Erdem C</span>, Lyons N, Natoli
+                        T, Pessa S, Lu X, Mullahoo J, Li J, Adam M, Wassie B, Liu M, Kilburn D, Liby TA, Bucher E,
+                        Sanchez-Aguila C, Daily K, Omberg L, Wang Y, Jacobson C, Yapp C, Chung M, Vidovic D, Lu Y,
+                        Schurer S, Lee A, Pillai A, Subramanian A, Papanastasiou M, Fraenkel E, Feiler HS, Mills GB,
+                        Jaffe J, Ma’ayan A, Birtwistle MR, Sorger PK, Korkola JE, Gray JW, Heiser LM* (2022). A
+                        multi-omic analysis of MCF10A cells provides a resource for integrative assessment of
+                        ligand-mediated molecular and phenotypic responses. Communications Biology (Nature). 5, 1066. <a
+                                href="https://www.nature.com/articles/s42003-022-03975-9"> [Link]</a></li>
+
+                    <li>Zadeh CO, Huggins JR, Sarmah D, Westbury BC, Interiano WR, Jordan MC, Phillips SA, Dodd WB,
+                        Meredith WO, Harold NJ, <span class="colored">Erdem C</span>, and Birtwistle MR* (2022).
+                        Mesowestern Blot: Simultaneous Quantitative Analysis for Hundreds of Sub-Microliter Lysates. ACS
+                        Omega. 7 (33), 28912-28923. <a href="https://pubs.acs.org/doi/full/10.1021/acsomega.2c02201">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C</span>, Lee AV, Taylor DL, Lezon TR* (2021). Inhibition of RPS6K
+                        reveals context-dependent Akt activity in luminal breast cancer cells. PLOS Computational
+                        Biology. 17 (6), e1009125. <a
+                                href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009125">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C</span>, Nagle AM, Casa AJ, Litzenburger B, Wang Y, Taylor DL, Lee
+                        AV, Lezon TR* (2016). Proteomic Screening and Lasso Regression Reveal Differential Signaling in
+                        Insulin and Insulin-like Growth Factor I (IGF1) Pathways. Molecular & Cellular Proteomics. 15
+                        (9), 3045-3057. <a
+                                href="https://www.sciencedirect.com/science/article/pii/S1535947620333788?via%3Dihub">
+                            [Link]</a></li>
+
+                    <li><span class="colored">Erdem C</span>, Bozkurt Y, Erman B, Gul A, Demir A* (2015). Mathematical
+                        Modeling of Behcet's Disease: A dynamical systems approach. Journal of Biological Systems. 23
+                        (02), 231-57. <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218339015500126">
+                            [Link]</a></li>
+                </ol>
+            </div>
+
+            <div id="Projects" class="content-region hide">
+                <h2>Projects</h2>
+
+                <div class="project">
+                    <h3>Large-scale mechanistic modeling (see <a href="https://rdcu.be/cP6tK">SPARCED</a> paper)</h3>
+                    <img src="SPARCEDpic2.jpg" alt="sparced" style="float: left; margin:0.6rem;">
+                    <p>
+                        SPARCED (<a href="https://github.com/SPARCED/SPARCED">github.com/SPARCED</a>) is an open-source
+                        pipeline to create and simulate largest-scale mechanistic models for human cells. The tool can
+                        convert structured lists of species, parameters, and reactions into an SBML model file.
+                        The default model is based on one of the largest pan-cancer signaling models in the literature,
+                        which already incorporated major pathways of receptor tyrosine kinase signalling (EGFR, HER2,
+                        ERBB3, ERBB4, FGFR, INSR, IGF1R, MET, PDGFR), proliferation (AKT, ERK2, MTOR), cell cycle,
+                        apoptosis, DNA damage, and transcription and translation events.
+                        The key aspects of SPARCED include (i) compatibility with high performance/cloud computing,
+                        (ii) ability to simulate thousands of single-cell trajectories in parallel, (iii) recording
+                        of cell division and death events, (iv) traceability of protein trajectories over generations of
+                        cells, (v) easy alteration to include new pathways, and (vi) easy change of context to other
+                        cell types.
+                    </p>
+                    <div style="clear: both;"></div>
+                </div>
+
+                <div class="project">
+                    <h3>Multi-omics data integration and integrative data analysis (see
+                        <a href="https://www.nature.com/articles/s41467-023-39729-2.epdf?sharing_token=u9DPRt-Q6tFF6k6Ri1qOu9RgN0jAjWel9jnR3ZoTv0PvrL8wWb1Z5FKzesRjTOfofa-z-u7A7IvXJmW-mdszsFVhRalFZQsERyTc9V4YSfWknkRDuQ-CQIlO12yDi0UhgE9tXGOxu4rGSqVeNCxdmDwaJV8_HsvPZwyJaHCeFuE%3D">MOBILE</a>
+                        paper)</h3>
+                    <img src="mobilepic2.jpg" alt="mobile" style="float: left; margin:0.6rem;">
+                    <p>
+                        MOBILE (<a href="https://github.com/cerdem12/MOBILE">github.com/MOBILE</a>) pipeline integrates
+                        multi-omics datasets in a data-driven, biologically-structured manner and finds context-specific
+                        association networks. The gene-level association networks generated can be used to nominate
+                        differentially enriched pathways.
+                    </p>
+                    <div style="clear: both;"></div>
+                </div>
+
+                <div class="project">
+                    <h3>Machine learning + Mechanistic modeling --> Causal inference (see
+                        <a href="https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2023.1099413/full">MEMMAL</a>
+                        paper)</h3>
+                    <img src="memmalpic2.jpg" alt="memmal" style="float: left; margin:0.6rem;">
+                    <p>
+                        MEMMAL (<a href="https://github.com/cerdem12/MEMMAL">github.com/MEMMAL</a>) framework uses
+                        machine learnt interactions as a basis for new reactions in mechanistic models.
+                        As a proof-of-concept, we incorporated MOBILE inferred novel IFNγ/PD-L1 related associations
+                        into SPARCED and explored possibly causal interactions.
+                        This work is a template for combining big-data-inferred interactions with mechanistic models,
+                        which could be more broadly applicable for building multi-scale precision medicine and
+                        whole cell models.
+                    </p>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+
+            <div id="Open_positions" class="content-region hide">
+                <h2>Open positions</h2>
+                <p>
+                    <br> <span class="color-bolded">Current openings:</span> Interested UmU Masters students, please
+                    send an email!
+                    <br>
+                    <br> <span class="color-bolded">Upcoming openings:</span> None currently. Please check back later or
+                    email.
+                    <br>
+                    <br> <b>Past openings:</b>
+                    <br> <a href="https://umu.varbi.com/se/what:job/jobID:791213/"> Two postdoctoral positions!</a>
+                    Application deadline: 2025-02-16
+                    <br> <a href="https://umu.varbi.com/se/what:job/jobID:684088/"> Two PhD positions!</a> Application
+                    deadline: 2024-01-14
+                    <br>
+                </p>
+
+            </div>
+
         </div>
-      </div>
     </div>
+</div>
 
-    <footer>  
-      For more information about the lab, please email us!
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+<footer>
+    For more information about the lab, please email us!
+</footer>
+
+<!-- Load additional JS scripts here -->
+<script type="text/javascript" src="script.js"></script>
+
+</body>
 </html>
